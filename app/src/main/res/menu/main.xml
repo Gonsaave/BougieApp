@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_takepic"
+        android:title="Tomar foto"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_recording"
+        android:title="Grabar"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_focus"
+        android:title="Camara focus"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_resolution"
+        android:title="Resolución"
+        app:showAsAction="never" />
+</menu>
