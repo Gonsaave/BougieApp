@@ -173,7 +173,7 @@ public class MainActivity extends AppCompatActivity implements CameraDialog.Came
     private void initView() {
         setSupportActionBar(mToolbar);
 
-        // mSeekBrightness.setVisibility(View.GONE);
+        mSeekBrightness.setVisibility(View.GONE);
         mSeekBrightness.setMax(100);
         mSeekBrightness.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
@@ -193,7 +193,7 @@ public class MainActivity extends AppCompatActivity implements CameraDialog.Came
 
             }
         });
-        // mSeekContrast.setVisibility(View.GONE);
+        mSeekContrast.setVisibility(View.GONE);
         mSeekContrast.setMax(100);
         mSeekContrast.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override

@@ -12,7 +12,7 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:background="@color/colorPrimary"
+        android:background="@color/colorToolbar"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
         app:navigationIcon="@null"
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
@@ -39,14 +39,14 @@
         android:layout_marginRight="10dp"
         android:orientation="horizontal">
 
-        <TextView
+        <!-- <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:paddingBottom="7dp"
             android:paddingTop="7dp"
             android:text="(contraste)"
-            android:textColor="@color/colorWhite" />
+            android:textColor="@color/colorWhite" /> -->
 
         <SeekBar
             android:id="@+id/seekbar_contrast"
@@ -65,14 +65,14 @@
         android:layout_marginRight="10dp"
         android:orientation="horizontal">
 
-        <TextView
+        <!-- <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:paddingBottom="7dp"
             android:paddingTop="7dp"
             android:text="(brillo)"
-            android:textColor="@color/colorWhite" />
+            android:textColor="@color/colorWhite" /> -->
 
         <SeekBar
             android:id="@+id/seekbar_brightness"
