@@ -13,6 +13,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.Surface;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
@@ -129,6 +130,7 @@ public class MainActivity extends AppCompatActivity implements CameraDialog.Came
             if (!isPreview && mCameraHelper.isCameraOpened()) {
                 mCameraHelper.startPreview(mUVCCameraView);
                 isPreview = true;
+                getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
             }
         }
 
